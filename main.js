@@ -10,7 +10,7 @@ let images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg',
   '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg','20.jpg'];
 
   let container = document.getElementById("gallery");
-for (let i = 0; i < 2; i++) {
+for (let i = 0; i <3; i++) {
   for (let image of images) {
 
     let img = document.createElement("img");
